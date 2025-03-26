@@ -16,7 +16,7 @@ h2 {
 }
 {
 font-size
-<div class="container">
-    <img src="imagem.jpg" width="10px" height="10px" />
-</div>
+.palestrante-item{
+    height: 10px;
+    width: 10px;
 }
