@@ -1,9 +1,192 @@
+*{ 
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+  
+}
+
 body {
-    background-color: aqua;
+    background-color: #03060D;
 }
 
 h1 {
-    margin-left: 400px;
-    margin-right: 400px;
+
+    
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border: 20px; color: rgb(0, 0, 0);
+    border: 20px; color: #7CA2A6;
+    
+
+}
+    
+.palestrantes{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px auto;
+    padding: 0;
+
+}
+
+.palestrantes, img{
+    margin-top: 5px;
+    padding: 15px;
+    width: 100%;
+    height:400px;
+    object-fit: cover;
+
+}
+
+.Local, form{
+    margin-top: 290px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.convite,h1,h2{
+    padding: 10px;
+    color: #7CA2A6;
+}
+
+.Local label{
+     display: block;
+    margin-top: 13px;
+    font-weight: bolder; 
+    color: #5D7F8B;
+      
+      
+}
+
+.convite{
+    margin-bottom: 130px;
+   
+}
+
+.palestrantes, p{
+    font-size: small;
+    text-align: center;
+    color: #7CA2A6;
+}
+
+.Local input[type = "text"],input[type = "email"]{
+    width: 200px ;
+    height:30px ;
+    border-radius: 6px;
+    border: 2px, solid,;
+    transition: border 0.3s;
+    
+}
+
+.Local input[type = "text"]:focus{
+
+    border-color: #D93611;
+    outline: none;
+    box-shadow: 0 0 0 3px,#5D7F8B;
+}
+   
+    
+
+.Local input[type = "email"]:focus{
+        border-color: #D93611;
+        outline: none;
+        box-shadow: 0 0 0 3px,#5D7F8B;
+    
+    }
+
+    .Local button{
+        color: #03060D;
+        border: none;
+        padding: 12px 25px;
+        border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    background-color: #D93611;
+    }
+
+    
+.Local input[type="checkbox"] {
+  margin-right: 8px;
+  transform: scale(1.1);
+}
+
+.Local input[type="radio"]{
+    margin-right: 8px;
+    transform: scale(1.1);
+}
+
+.Local button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  input {
+    background-color: transparent; 
+    border: 2px solid #4a90e2;  
+    padding: 10px;
+    border-radius: 5px;           
+    color: #333;                  
+    outline: none;                
+  }
+
+  input[type="radio"] {
+
+    appearance: none;
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #8e44ad; 
+    border-radius: 50%; 
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+
+  }
+
+  input[type="radio"]:checked {
+    background-color: #8e44ad; 
+  }
+
+  input[type="checkbox"] {
+    appearance: none; 
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #4a90e2; 
+    border-radius: 3px;
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    vertical-align: middle;
+  }
+  
+  
+  input[type="checkbox"]:checked {
+    background-color: #4a90e2; 
+  }
+
+  input[type="checkbox"]:checked::after {
+    content: "✓";
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .Local {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+    margin-top: 200px;
+  }
+  
+  #con{
+    text-align: left;
+  }
+    
